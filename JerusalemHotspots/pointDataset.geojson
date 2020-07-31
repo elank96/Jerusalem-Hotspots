@@ -1,0 +1,329 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Damascus Gate - שֵער שכם",
+        "Type": "Point",
+        "Neighborhood": "Old City - Muslim Quarter",
+        "Utility": "Old City Entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          35.230384,
+          31.781643
+        ],
+        "type": "Point"
+      },
+      "id": "0c3f3115b0d1e62dde8b4e41ed5cdefd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Givat Hamivtar Station - תחנה גבעת המבתר ",
+        "Type": "Point",
+        "Neighborhood": "Givat Hamivtar - גבעת המבתר",
+        "Utility": "Light Rail Station"
+      },
+      "geometry": {
+        "coordinates": [
+          35.234329,
+          31.805372
+        ],
+        "type": "Point"
+      },
+      "id": "28236701f151b49c386e770529f24086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Apartment 703",
+        "Type": "Point",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Housing Unit"
+      },
+      "geometry": {
+        "coordinates": [
+          35.23851,
+          31.80014
+        ],
+        "type": "Point"
+      },
+      "id": "30f6972f142684d306eab423287ead2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Central Bus Station - תחנה מרכזית",
+        "Type": "Point",
+        "Neighborhood": "Downtown/City Entrance",
+        "Utility": "Bus Station"
+      },
+      "geometry": {
+        "coordinates": [
+          35.203057,
+          31.789225
+        ],
+        "type": "Point"
+      },
+      "id": "3964dec39644427337ca091b3829df1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Damascus Gate Station - תחנה שער שכם",
+        "Type": "Point",
+        "Neighborhood": "Just North of Old City, Damascus Gate -  שֵער שכם",
+        "Utility": "Light Rail Station"
+      },
+      "geometry": {
+        "coordinates": [
+          35.22788,
+          31.782429
+        ],
+        "type": "Point"
+      },
+      "id": "3a22f02e9a842d76f88692770c7897f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Strip Mall",
+        "Type": "Polygon",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Leisure/Hangout"
+      },
+      "geometry": {
+        "coordinates": [
+          35.238469,
+          31.802249
+        ],
+        "type": "Point"
+      },
+      "id": "40206a2fc22759d0822e5b0b668ea9f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jaffa Gate - שער יפו ",
+        "Type": "Point",
+        "Neighborhood": "Old City - Between Christian and Armenian Quarters",
+        "Utility": "Old City Entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          35.227541,
+          31.776682
+        ],
+        "type": "Point"
+      },
+      "id": "4408ea53acfcd52306eff97a3d0c9472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Azura - עזורה",
+        "Type": "Point",
+        "Neighborhood": "Within Shuk: Between Machane Yehuda – מחנה יהודה and Nachlaot - נחלאות",
+        "Utility": "Restaurant"
+      },
+      "geometry": {
+        "coordinates": [
+          35.212065,
+          31.784826
+        ],
+        "type": "Point"
+      },
+      "id": "4e6356d57890da7177e6b108757c34fd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Humus Hagiva - חומוס הגבעא",
+        "Type": "Point",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Restaurant"
+      },
+      "geometry": {
+        "coordinates": [
+          35.238535,
+          31.802178
+        ],
+        "type": "Point"
+      },
+      "id": "5948e0cbd5b68e5048a6572b0f75ed7a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gan Sakker - גן סאקר",
+        "Type": "Polygon",
+        "Neighborhood": "Central Jerusalem",
+        "Utility": "Park & Garden"
+      },
+      "geometry": {
+        "coordinates": [
+          35.208193,
+          31.779719
+        ],
+        "type": "Point"
+      },
+      "id": "5daf9a86062eadad387b5acb0968bce2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Student Village - כפר הסטודנתים",
+        "Type": "Polygon",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Housing"
+      },
+      "geometry": {
+        "coordinates": [
+          35.238724,
+          31.799621
+        ],
+        "type": "Point"
+      },
+      "id": "66ccd1a0aa67cd4779e299a3add8db09"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "JS Student Center",
+        "Type": "Point",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Hangout/Leisure"
+      },
+      "geometry": {
+        "coordinates": [
+          35.235724,
+          31.799351
+        ],
+        "type": "Point"
+      },
+      "id": "724028519ba7848350be396d9fdc45ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Friday Night Hangout",
+        "Type": "Point",
+        "Neighborhood": "Ramat Eshkol - רמת אשכול",
+        "Utility": "Hangout/Leisure"
+      },
+      "geometry": {
+        "coordinates": [
+          35.231028,
+          31.800507
+        ],
+        "type": "Point"
+      },
+      "id": "8471bf790f1b6ff855279f20c239bfe4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ammunition Hill Station - תחנה גבעת התחמושת",
+        "Type": "Point",
+        "Neighborhood": "Ammunition Hill - גבעת התחמושת",
+        "Utility": "Light Rail Station"
+      },
+      "geometry": {
+        "coordinates": [
+          35.232049,
+          31.799135
+        ],
+        "type": "Point"
+      },
+      "id": "84887b1ac3c3c33a68dfdb067496111a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rothberg International School",
+        "Type": "Point",
+        "Neighborhood": "Mount Scopus - הר הצופים",
+        "Utility": "Houses Study Abroad and Mechina Programs"
+      },
+      "geometry": {
+        "coordinates": [
+          35.246,
+          31.792924
+        ],
+        "type": "Point"
+      },
+      "id": "8a0bc046b0d9e8cd6fb79eea28c027cd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Shuk Machane Yehuda - שוק מחנה יהודה",
+        "Type": "Polygon",
+        "Neighborhood": "Between Machane Yehuda – מחנה יהודה and Nachlaot - נחלאות",
+        "Utility": "Marketplace"
+      },
+      "geometry": {
+        "coordinates": [
+          35.212643,
+          31.78481
+        ],
+        "type": "Point"
+      },
+      "id": "b7b71ef65a8add80d3fcddbea77c1c73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lerner Sports Complex",
+        "Type": "Polygon",
+        "Neighborhood": "French Hill - גבעת הצרפתית",
+        "Utility": "Athletic & Wellness Center"
+      },
+      "geometry": {
+        "coordinates": [
+          35.237801,
+          31.797306
+        ],
+        "type": "Point"
+      },
+      "id": "ebe0fe144cb231cd71208227c14f5cef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hebrew University - אוניברסיטה העברית",
+        "Type": "Polygon",
+        "Neighborhood": "Mount Scopus - הר הצופים",
+        "Utility": "Campus"
+      },
+      "geometry": {
+        "coordinates": [
+          35.244799,
+          31.792519
+        ],
+        "type": "Point"
+      },
+      "id": "f6264c39fe94d01563e4049276ce9b0e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mamilla Mall - ממילא",
+        "Type": "Polygon",
+        "Neighborhood": "Just East of Old City, Jaffa Gate – שער יפו",
+        "Utility": "Shopping Center"
+      },
+      "geometry": {
+        "coordinates": [
+          35.224447,
+          31.777682
+        ],
+        "type": "Point"
+      },
+      "id": "fd93f2da424c8413fb2d10f94327fe4d"
+    }
+  ],
+  "type": "FeatureCollection"
+}
+

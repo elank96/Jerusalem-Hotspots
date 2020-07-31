@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C7BD1BD2435A1BE00CD9E5C /* CustomItemView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7BD1BC2435A1BE00CD9E5C /* CustomItemView2.xib */; };
+		8CABD8EE2436EE5B007374E9 /* CustomItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CABD8ED2436EE5B007374E9 /* CustomItemView.xib */; };
+		8CE984B3243437B8007DDB72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984B2243437B8007DDB72 /* AppDelegate.swift */; };
+		8CE984B5243437B8007DDB72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984B4243437B8007DDB72 /* SceneDelegate.swift */; };
+		8CE984B7243437B8007DDB72 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984B6243437B8007DDB72 /* ThemeViewController.swift */; };
+		8CE984BA243437B8007DDB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE984B8243437B8007DDB72 /* Main.storyboard */; };
+		8CE984BC243437C7007DDB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE984BB243437C7007DDB72 /* Assets.xcassets */; };
+		8CE984BF243437C7007DDB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE984BD243437C7007DDB72 /* LaunchScreen.storyboard */; };
+		8CE984CA243437C8007DDB72 /* JerusalemHotspotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984C9243437C8007DDB72 /* JerusalemHotspotsTests.swift */; };
+		8CE984D524343CA6007DDB72 /* pointDataset.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 8CE984D424343CA5007DDB72 /* pointDataset.geojson */; };
+		8CE984D724343CB0007DDB72 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984D624343CAF007DDB72 /* Themes.swift */; };
+		8CE984D9243440F8007DDB72 /* ThemePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE984D8243440F7007DDB72 /* ThemePickerViewController.swift */; };
+		8D405CA4AC42FAD3333F1874 /* Pods_JerusalemHotspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F43A23CE6921DA2B5D8B673 /* Pods_JerusalemHotspots.framework */; };
+		DB2DBD0C3F86485DA83EA775 /* Pods_JerusalemHotspotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D07D051EDD78A3ADA49CF5F /* Pods_JerusalemHotspotsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE984C6243437C8007DDB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE984A7243437B8007DDB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE984AE243437B8007DDB72;
+			remoteInfo = JerusalemHotspots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		474EFC2014BC4937756CF266 /* Pods-JerusalemHotspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerusalemHotspotsTests.debug.xcconfig"; path = "Target Support Files/Pods-JerusalemHotspotsTests/Pods-JerusalemHotspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F43A23CE6921DA2B5D8B673 /* Pods_JerusalemHotspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JerusalemHotspots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D07D051EDD78A3ADA49CF5F /* Pods_JerusalemHotspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JerusalemHotspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7BD1BC2435A1BE00CD9E5C /* CustomItemView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomItemView2.xib; sourceTree = "<group>"; };
+		8CABD8ED2436EE5B007374E9 /* CustomItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomItemView.xib; sourceTree = "<group>"; };
+		8CE984AF243437B8007DDB72 /* JerusalemHotspots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerusalemHotspots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE984B2243437B8007DDB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE984B4243437B8007DDB72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CE984B6243437B8007DDB72 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		8CE984B9243437B8007DDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE984BB243437C7007DDB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE984BE243437C7007DDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE984C0243437C7007DDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE984C5243437C8007DDB72 /* JerusalemHotspotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerusalemHotspotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE984C9243437C8007DDB72 /* JerusalemHotspotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerusalemHotspotsTests.swift; sourceTree = "<group>"; };
+		8CE984CB243437C8007DDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE984D424343CA5007DDB72 /* pointDataset.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pointDataset.geojson; sourceTree = "<group>"; };
+		8CE984D624343CAF007DDB72 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		8CE984D8243440F7007DDB72 /* ThemePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePickerViewController.swift; sourceTree = "<group>"; };
+		D50A5E5783630C4200359AAA /* Pods-JerusalemHotspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerusalemHotspots.release.xcconfig"; path = "Target Support Files/Pods-JerusalemHotspots/Pods-JerusalemHotspots.release.xcconfig"; sourceTree = "<group>"; };
+		E2FB04B20945CE14FFA4A08C /* Pods-JerusalemHotspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerusalemHotspotsTests.release.xcconfig"; path = "Target Support Files/Pods-JerusalemHotspotsTests/Pods-JerusalemHotspotsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E39EC0D7456A3DA81C88DDE9 /* Pods-JerusalemHotspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerusalemHotspots.debug.xcconfig"; path = "Target Support Files/Pods-JerusalemHotspots/Pods-JerusalemHotspots.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE984AC243437B8007DDB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D405CA4AC42FAD3333F1874 /* Pods_JerusalemHotspots.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE984C2243437C8007DDB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2DBD0C3F86485DA83EA775 /* Pods_JerusalemHotspotsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44624E043EAB76B328206D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F43A23CE6921DA2B5D8B673 /* Pods_JerusalemHotspots.framework */,
+				6D07D051EDD78A3ADA49CF5F /* Pods_JerusalemHotspotsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE984A6243437B8007DDB72 = {
+			isa = PBXGroup;
+			children = (
+				8CE984B1243437B8007DDB72 /* JerusalemHotspots */,
+				8CE984C8243437C8007DDB72 /* JerusalemHotspotsTests */,
+				8CE984B0243437B8007DDB72 /* Products */,
+				A24A337AD5CB5E89D62AD9F4 /* Pods */,
+				44624E043EAB76B328206D27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE984B0243437B8007DDB72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE984AF243437B8007DDB72 /* JerusalemHotspots.app */,
+				8CE984C5243437C8007DDB72 /* JerusalemHotspotsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE984B1243437B8007DDB72 /* JerusalemHotspots */ = {
+			isa = PBXGroup;
+			children = (
+				8CE984B2243437B8007DDB72 /* AppDelegate.swift */,
+				8CE984B4243437B8007DDB72 /* SceneDelegate.swift */,
+				8CE984B6243437B8007DDB72 /* ThemeViewController.swift */,
+				8C7BD1BC2435A1BE00CD9E5C /* CustomItemView2.xib */,
+				8CABD8ED2436EE5B007374E9 /* CustomItemView.xib */,
+				8CE984D8243440F7007DDB72 /* ThemePickerViewController.swift */,
+				8CE984D624343CAF007DDB72 /* Themes.swift */,
+				8CE984D424343CA5007DDB72 /* pointDataset.geojson */,
+				8CE984B8243437B8007DDB72 /* Main.storyboard */,
+				8CE984BB243437C7007DDB72 /* Assets.xcassets */,
+				8CE984BD243437C7007DDB72 /* LaunchScreen.storyboard */,
+				8CE984C0243437C7007DDB72 /* Info.plist */,
+			);
+			path = JerusalemHotspots;
+			sourceTree = "<group>";
+		};
+		8CE984C8243437C8007DDB72 /* JerusalemHotspotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE984C9243437C8007DDB72 /* JerusalemHotspotsTests.swift */,
+				8CE984CB243437C8007DDB72 /* Info.plist */,
+			);
+			path = JerusalemHotspotsTests;
+			sourceTree = "<group>";
+		};
+		A24A337AD5CB5E89D62AD9F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39EC0D7456A3DA81C88DDE9 /* Pods-JerusalemHotspots.debug.xcconfig */,
+				D50A5E5783630C4200359AAA /* Pods-JerusalemHotspots.release.xcconfig */,
+				474EFC2014BC4937756CF266 /* Pods-JerusalemHotspotsTests.debug.xcconfig */,
+				E2FB04B20945CE14FFA4A08C /* Pods-JerusalemHotspotsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE984AE243437B8007DDB72 /* JerusalemHotspots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE984CE243437C8007DDB72 /* Build configuration list for PBXNativeTarget "JerusalemHotspots" */;
+			buildPhases = (
+				9CFE4804C0F886DD84386EB7 /* [CP] Check Pods Manifest.lock */,
+				8CE984AB243437B8007DDB72 /* Sources */,
+				8CE984AC243437B8007DDB72 /* Frameworks */,
+				8CE984AD243437B8007DDB72 /* Resources */,
+				A9D4FFE433AEDDB46290B678 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JerusalemHotspots;
+			productName = JerusalemHotspots;
+			productReference = 8CE984AF243437B8007DDB72 /* JerusalemHotspots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE984C4243437C8007DDB72 /* JerusalemHotspotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE984D1243437C8007DDB72 /* Build configuration list for PBXNativeTarget "JerusalemHotspotsTests" */;
+			buildPhases = (
+				6C0DB1424A0F5335B838CAD5 /* [CP] Check Pods Manifest.lock */,
+				8CE984C1243437C8007DDB72 /* Sources */,
+				8CE984C2243437C8007DDB72 /* Frameworks */,
+				8CE984C3243437C8007DDB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE984C7243437C8007DDB72 /* PBXTargetDependency */,
+			);
+			name = JerusalemHotspotsTests;
+			productName = JerusalemHotspotsTests;
+			productReference = 8CE984C5243437C8007DDB72 /* JerusalemHotspotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE984A7243437B8007DDB72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Elazar Gavur";
+				TargetAttributes = {
+					8CE984AE243437B8007DDB72 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8CE984C4243437C8007DDB72 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8CE984AE243437B8007DDB72;
+					};
+				};
+			};
+			buildConfigurationList = 8CE984AA243437B8007DDB72 /* Build configuration list for PBXProject "JerusalemHotspots" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE984A6243437B8007DDB72;
+			productRefGroup = 8CE984B0243437B8007DDB72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE984AE243437B8007DDB72 /* JerusalemHotspots */,
+				8CE984C4243437C8007DDB72 /* JerusalemHotspotsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE984AD243437B8007DDB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7BD1BD2435A1BE00CD9E5C /* CustomItemView2.xib in Resources */,
+				8CABD8EE2436EE5B007374E9 /* CustomItemView.xib in Resources */,
+				8CE984BF243437C7007DDB72 /* LaunchScreen.storyboard in Resources */,
+				8CE984BC243437C7007DDB72 /* Assets.xcassets in Resources */,
+				8CE984BA243437B8007DDB72 /* Main.storyboard in Resources */,
+				8CE984D524343CA6007DDB72 /* pointDataset.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE984C3243437C8007DDB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C0DB1424A0F5335B838CAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JerusalemHotspotsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFE4804C0F886DD84386EB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JerusalemHotspots-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D4FFE433AEDDB46290B678 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JerusalemHotspots/Pods-JerusalemHotspots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JerusalemHotspots/Pods-JerusalemHotspots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JerusalemHotspots/Pods-JerusalemHotspots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE984AB243437B8007DDB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE984B7243437B8007DDB72 /* ThemeViewController.swift in Sources */,
+				8CE984D724343CB0007DDB72 /* Themes.swift in Sources */,
+				8CE984B3243437B8007DDB72 /* AppDelegate.swift in Sources */,
+				8CE984B5243437B8007DDB72 /* SceneDelegate.swift in Sources */,
+				8CE984D9243440F8007DDB72 /* ThemePickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE984C1243437C8007DDB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE984CA243437C8007DDB72 /* JerusalemHotspotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE984C7243437C8007DDB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE984AE243437B8007DDB72 /* JerusalemHotspots */;
+			targetProxy = 8CE984C6243437C8007DDB72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE984B8243437B8007DDB72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE984B9243437B8007DDB72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE984BD243437C7007DDB72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE984BE243437C7007DDB72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE984CC243437C8007DDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CE984CD243437C8007DDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE984CF243437C8007DDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39EC0D7456A3DA81C88DDE9 /* Pods-JerusalemHotspots.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTNA5LGD42;
+				INFOPLIST_FILE = JerusalemHotspots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.JerusalemHotspots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE984D0243437C8007DDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50A5E5783630C4200359AAA /* Pods-JerusalemHotspots.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTNA5LGD42;
+				INFOPLIST_FILE = JerusalemHotspots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.JerusalemHotspots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CE984D2243437C8007DDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474EFC2014BC4937756CF266 /* Pods-JerusalemHotspotsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTNA5LGD42;
+				INFOPLIST_FILE = JerusalemHotspotsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.JerusalemHotspotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JerusalemHotspots.app/JerusalemHotspots";
+			};
+			name = Debug;
+		};
+		8CE984D3243437C8007DDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FB04B20945CE14FFA4A08C /* Pods-JerusalemHotspotsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTNA5LGD42;
+				INFOPLIST_FILE = JerusalemHotspotsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.JerusalemHotspotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JerusalemHotspots.app/JerusalemHotspots";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE984AA243437B8007DDB72 /* Build configuration list for PBXProject "JerusalemHotspots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE984CC243437C8007DDB72 /* Debug */,
+				8CE984CD243437C8007DDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE984CE243437C8007DDB72 /* Build configuration list for PBXNativeTarget "JerusalemHotspots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE984CF243437C8007DDB72 /* Debug */,
+				8CE984D0243437C8007DDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE984D1243437C8007DDB72 /* Build configuration list for PBXNativeTarget "JerusalemHotspotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE984D2243437C8007DDB72 /* Debug */,
+				8CE984D3243437C8007DDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE984A7243437B8007DDB72 /* Project object */;
+}

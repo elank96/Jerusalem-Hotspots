@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7839F580-CF03-4CE7-AB65-27A98B4DAD6C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JerusalemHotspots/ThemePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - bf2a14d879b037e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.__deallocating_deinit"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - 3fdcdcbba6117ea6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; JerusalemHotspots.ThemePickerViewController"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - a0e819a0a8fcf81d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.init(style: __C.UITableViewStyle) -&gt; JerusalemHotspots.ThemePickerViewController"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - 5ad47c568f169ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; JerusalemHotspots.ThemePickerViewController"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - 55af8ee8b4d718d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; JerusalemHotspots.ThemePickerViewController"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - f6d30f731c7bfd17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;JerusalemHotspots.ThemePickerViewController&gt;"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "3B8560F8-101E-4B86-8ADA-34267E8E8CD7 - 826e1dafbaf9baf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JerusalemHotspots.ThemePickerViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;JerusalemHotspots.ThemePickerViewController&gt;"
+                  moduleName = "JerusalemHotspots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elankainen/Developer/iOS/JerusalemHotspots/JerusalemHotspots/ThemePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
